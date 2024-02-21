@@ -1,0 +1,177 @@
+body {
+  overflow-y: scroll;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+@font-face
+{
+  font-family: os;
+  src: url(/test-main/utilities/NotoNastaliqUrdu-VariableFont_wght.ttf);
+}
+.hero {
+  overflow-x: hidden;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  margin-top: -10px;
+  overflow-y: auto;
+  &__deatil {
+    margin-top: 101px;
+  }
+  &__lovefood {
+    margin-left: 15px;
+    padding-left: 22px;
+    background: #cdef99;
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --mobile-headings-display-font-family,
+      "Raleway-ExtraBold",
+      sans-serif
+    );
+    font-size: var(--mobile-headings-display-font-size, 33px);
+    font-weight: var(--mobile-headings-display-font-weight, 800);
+    position: relative;
+    align-self: stretch;
+    width: 243px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__itsinflavour {
+    margin-left: 16px;
+    color: #ffffff;
+    text-align: left;
+    font-family: var(
+      --mobile-headings-display-font-family,
+      "Raleway-ExtraBold",
+      sans-serif
+    );
+    font-size: var(--mobile-headings-display-font-size, 33px);
+    font-weight: var(--mobile-headings-display-font-weight, 800);
+    position: relative;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__txt {
+    margin-top: 16px;
+    margin-left: 16px;
+    color: #ffffff;
+    text-align: left;
+    font-family: var(
+      --body-large-medium-font-family,
+      "Montserrat-Medium",
+      sans-serif
+    );
+    font-size: var(--body-large-medium-font-size, 16px);
+    line-height: var(--body-large-medium-line-height, 24px);
+    font-weight: var(--body-large-medium-font-weight, 500);
+    position: relative;
+    width: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__date {
+    margin-top: 16px;
+    margin-left: 16px;
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--body-xl-bold-font-family, "Montserrat-Bold", sans-serif);
+    font-size: var(--body-xl-bold-font-size, 20px);
+    line-height: var(--body-xl-bold-line-height, 28px);
+    font-weight: var(--body-xl-bold-font-weight, 700);
+    position: relative;
+    width: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__register-now {
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 200px;
+    background: var(--archive-primary-pink-100, #ff00ab);
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    position: relative;
+    color: #ffffff;
+    text-align: left;
+    font-family: var(
+      --button-label-bold-font-family,
+      "Montserrat-Bold",
+      sans-serif
+    );
+    font-size: var(--button-label-bold-font-size, 14px);
+    font-weight: var(--button-label-bold-font-weight, 700);
+    text-transform: uppercase;
+    position: relative;
+    margin-right: 80%;
+  }
+  &__EXH {
+    margin-left: 16px;
+    width: 194px;
+    margin-top: 16px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 3px;
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    position: relative;
+    color: #ffffff;
+    text-align: left;
+    font-family: var(
+      --button-label-bold-font-family,
+      "Montserrat-Bold",
+      sans-serif
+    );
+    font-size: var(--button-label-bold-font-size, 14px);
+    font-weight: var(--button-label-bold-font-weight, 700);
+    text-transform: uppercase;
+    position: relative;
+  }
+  &__follow-us {
+    margin-top: 40px;
+    margin-left: 86px;
+    margin-right: 86px;
+    color: #ffffff;
+    text-align: center;
+    font-family: var(
+      --body-small-bold-font-family,
+      "Montserrat-Bold",
+      sans-serif
+    );
+    font-size: var(--body-small-bold-font-size, 12px);
+    line-height: var(--body-small-bold-line-height, 19px);
+    font-weight: var(--body-small-bold-font-weight, 700);
+    position: relative;
+    width: 156px;
+  }
+  &__social-icon-div {
+    margin-left: 52px;
+    margin-top: 16px;
+  }
+  &__footer {
+    background: #343a33;
+    height: 200px;
+    position: relative;
+  }
+  &__img {
+    margin-left: 147px;
+  }
+}
+
