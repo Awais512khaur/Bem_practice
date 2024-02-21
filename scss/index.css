@@ -9,8 +9,21 @@ body {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: Anta;
+  src: url(/Bem_practice/utilities/Anta-Regular.ttf);
+}
 h4 {
   font-family: Anta;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-transform: uppercase;
 }
 
 .header {
@@ -205,7 +218,7 @@ a {
 
 @font-face {
   font-family: os;
-  src: url(/test-main/utilities/NotoNastaliqUrdu-VariableFont_wght.ttf);
+  src: url(/Bem_practice/utilities/NotoNastaliqUrdu-VariableFont_wght.ttf);
 }
 .footer {
   background-color: #f0f0f0;
