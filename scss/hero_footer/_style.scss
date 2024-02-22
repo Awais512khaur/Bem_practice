@@ -1,11 +1,12 @@
 .footer {
   background: #343a33;
-  width: 1440px;
+  width: 100%;
   height: 116px;
   position: relative;
   align-items: center;
   justify-content: center;
   margin-top: -20px;
+  aspect-ratio: 4 / 4;
   &__logo1
   {
     margin-left: 50px;

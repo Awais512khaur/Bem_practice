@@ -218,12 +218,13 @@ a {
 
 .footer {
   background: #343a33;
-  width: 1440px;
+  width: 100%;
   height: 116px;
   position: relative;
   align-items: center;
   justify-content: center;
   margin-top: -20px;
+  aspect-ratio: 4/4;
 }
 .footer__logo1 {
   margin-left: 50px;
@@ -281,10 +282,9 @@ a {
   color: white;
 }
 .about__info-div {
+  gap: 116px;
+  margin-left: 251px;
   display: flex;
-}
-.about__info-main {
-  margin-left: 235px;
 }
 .about__info-num {
   color: #ffffff;

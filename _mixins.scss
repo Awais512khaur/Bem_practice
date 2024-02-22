@@ -1,0 +1,107 @@
+$mobile: 360;
+$tablet: 768;
+$mobile-lg: 767px;
+$tablet-lg: 834;
+$desktop-sm: 992;
+$desktop: 1280;
+$desktop-md: 1440;
+$desktop-lg: 1680;
+$desktop-xlg: 1920;
+$desktop-xxlg: 2440;
+
+/* 390px */
+@mixin mobile() {
+  @media (min-width: #{$mobile}px) {
+    @content;
+  }
+}
+
+/* 767px */
+@mixin mob-lg() {
+  @media (max-width: #{$mobile-lg}) {
+    @content;
+  }
+}
+
+/* 768px */
+@mixin tablet() {
+  @media (min-width: #{$tablet}px) {
+    @content;
+  }
+}
+
+/* 834px */
+@mixin tablet-lg() {
+  @media (min-width: #{$tablet-lg}px) {
+    @content;
+  }
+}
+
+/* 992px */
+@mixin desktop-sm() {
+  @media (min-width: #{$desktop-sm}px) {
+    @content;
+  }
+}
+
+/* 1280px */
+@mixin desktop() {
+  @media (min-width: #{$desktop}px) {
+    @content;
+  }
+}
+
+/* 1440px */
+@mixin desktop-md() {
+  @media (min-width: #{$desktop-md}px) {
+    @content;
+  }
+}
+
+/* 1680px */
+@mixin desktop-lg() {
+  @media (min-width: #{$desktop-lg}px) {
+    @content;
+  }
+}
+
+/* 1920px */
+@mixin desktop-xlarge() {
+  @media (min-width: #{$desktop-xlg}px) {
+    @content;
+  }
+}
+
+/* 2440px */
+@mixin desktop-xxlarge() {
+  @media (min-width: #{$desktop-xxlg}px) {
+    @content;
+  }
+}
+
+/* 992px */
+@mixin tab-sm() {
+  @media (max-width: #{$desktop-sm}px) {
+    @content;
+  }
+}
+
+/* THE FUNCTION FOR THE FLUID SIZES */
+
+@function calculate-value($y1, $y2, $x1, $x2) {
+  $v: calc((100 * ($y2 - $y1)) / ($x2 - $x1));
+  $r: calc(((($x1 * $y2) - ($x2 * $y1)) / ($x1 - $x2)) / 16);
+  $min-value: calc($y1 / 16);
+  $max-value: calc($y2 / 16);
+  $clamp-min: if($max-value < $min-value, $max-value, $min-value);
+  $clamp-max: if($max-value < $min-value, $min-value, $max-value);
+
+  @return clamp(#{$clamp-min}rem,  #{$v}vw + #{$r}rem, #{$clamp-max}rem);
+}
+
+@function bg-color($v1, $v2, $v3, $v4) {
+  @return linear-gradient(0deg, $v1 0%, $v1 50%,
+  $v2 50%, $v2 100%),
+    linear-gradient(180deg, $v3 0%, $v3 50%,
+  $v4 50%, $v4 100%);
+}
