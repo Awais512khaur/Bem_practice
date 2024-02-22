@@ -1,0 +1,106 @@
+@font-face 
+{
+    font-family: protest;
+    src: url(/Bem_practice/utilities/ProtestRevolution-Regular.ttf);
+}
+@font-face
+{
+    font-family: fen;
+    src: url(/Bem_practice/utilities/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+@font-face
+{
+    font-family: robot;
+    src: url(/Bem_practice/utilities/Roboto-Black.ttf);
+}
+.about
+{
+    background-color: black;
+    &__title-div
+    {
+        margin-left: 26%;
+        display: flex;
+    }
+    &__title
+        {
+            font-family: fen;
+            font-size: 55px;
+            -webkit-text-stroke: 2px white;
+        }
+    &__title-sufix
+    {
+        margin-left: 10px;
+        font-family: fen;
+        font-size: 55px;
+        background-color: #7f8765;
+        color: white;
+    }
+    &__txt-div
+    {
+        margin-left: 20%;
+        margin-right: 24%;
+    }
+    &__txt
+    {
+        font-family: robot;
+        color: white;
+    }
+    &__info-div
+    {
+        display: flex;
+    }
+    &__info-main
+    {
+        margin-left: 235px;
+    }
+    &__info-num
+    {
+        color: #ffffff;
+        text-align: left;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        position: relative;
+        align-self: stretch;
+    }
+    &__info-heading
+    {
+        margin: 6px 0 0 0;
+        color: var(--archive-tint-40-dark-green-40, #99e099);
+        text-align: left;
+        font-family: var(--body-large-semi-bold-font-family, 'Montserrat-SemiBold', sans-serif);
+        font-size: var(--body-large-semi-bold-font-size, 16px);
+        line-height: var(--body-large-semi-bold-line-height, 24px);
+        font-weight: var(--body-large-semi-bold-font-weight, 600);
+        position: relative;
+        align-self: stretch;
+    }
+    &__btn-div
+    {
+        margin-top: 60px;
+        margin-left: 20%;
+    }
+    &__btn
+    {
+        margin-left: 20%;
+        display: inline-block;
+        padding: 0.5em 1.7em;
+        margin: 0 0.1em 0.1em 0;
+        border: 0.16em solid rgba(255, 255, 255, 0);
+        background: var(--archive-primary-pink-100, #ff00ab);
+        border-radius: 13px;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: robot, sans-serif;
+        font-weight: 300;
+        color: #ffffff;
+        text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+        text-align: center;
+        transition: all 0.2s;
+    }
+    &__btn:hover
+    {
+        text-transform: none;
+        border-color: rgb(255, 255, 255);
+    }
+}
