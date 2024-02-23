@@ -11,6 +11,7 @@ a {
   src: url(/utilities/Roboto-Bold.ttf);
 }
 .hero {
+  height: 950px;
   overflow-x: hidden;
   display: flex;
   background-color: black;
@@ -21,27 +22,26 @@ a {
     margin-top: 101px;
   }
   &__lovefood {
-    margin-left: 15px;
+    z-index: 2;
+    margin-left: 100px;
     padding-left: 22px;
     background: #cdef99;
     color: #000000;
     text-align: left;
     font-family: var(
       --mobile-headings-display-font-family,
-      "Raleway-ExtraBold",
-      sans-serif
-    );
+      "Raleway-ExtraBold", sans-serif );
     font-size: var(--mobile-headings-display-font-size, 72px);
     font-weight: var(--mobile-headings-display-font-weight, 800);
     position: relative;
     align-self: stretch;
-    width:fit-content;
+    width: 65%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
   }
   &__itsinflavour {
-    margin-left: 16px;
+    padding-left: 16%;
     color: #ffffff;
     text-align: left;
     font-family: var(
@@ -59,7 +59,7 @@ a {
   }
   &__txt {
     margin-top: 16px;
-    margin-left: 16px;
+    margin-left: 100px;
     color: #ffffff;
     text-align: left;
     font-family: var(
@@ -67,18 +67,18 @@ a {
       "Montserrat-Medium",
       sans-serif
     );
-    font-size: var(--body-large-medium-font-size, 16px);
+    font-size: var(--body-large-medium-font-size, 25px);
     line-height: var(--body-large-medium-line-height, 24px);
     font-weight: var(--body-large-medium-font-weight, 500);
     position: relative;
-    width: 328px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
   }
   &__date {
     margin-top: 16px;
-    margin-left: 16px;
+    margin-left: 100px;
     color: #ffffff;
     text-align: left;
     font-family: var(--body-xl-bold-font-family, "Montserrat-Bold", sans-serif);
@@ -86,15 +86,15 @@ a {
     line-height: var(--body-xl-bold-line-height, 28px);
     font-weight: var(--body-xl-bold-font-weight, 700);
     position: relative;
-    width: 328px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
   }
   &__register-now {
     margin-top: 16px;
-    margin-left: 16px;
-    width: 200px;
+    margin-left: 100px;
+    width: 380px;
     background: var(--archive-primary-pink-100, #ff00ab);
     padding: 0px 24px 0px 24px;
     display: flex;
@@ -118,8 +118,8 @@ a {
     margin-right: 80%;
   }
   &__EXH {
-    margin-left: 16px;
-    width: 194px;
+    margin-left: 100px;
+    width: 375px;
     margin-top: 16px;
     border-style: solid;
     border-color: #ffffff;
@@ -146,7 +146,7 @@ a {
   }
   &__follow-us {
     margin-top: 40px;
-    margin-left: 86px;
+    margin-left: 235px;
     margin-right: 86px;
     color: #ffffff;
     text-align: center;
@@ -162,7 +162,7 @@ a {
     width: 156px;
   }
   &__social-icon-div {
-    margin-left: 52px;
+    margin-left: 165px;
     margin-top: 16px;
   }
   &__footer {
@@ -171,7 +171,7 @@ a {
     position: relative;
   }
   &__img {
-    margin-left: 294px;
+    margin-left: 129px;
   }
 }
 
