@@ -8,7 +8,7 @@ a {
 @font-face
 {
   font-family: os;
-  src: url(/test-main/utilities/NotoNastaliqUrdu-VariableFont_wght.ttf);
+  src: url(/utilities/Roboto-Bold.ttf);
 }
 .hero {
   overflow-x: hidden;
@@ -31,11 +31,11 @@ a {
       "Raleway-ExtraBold",
       sans-serif
     );
-    font-size: var(--mobile-headings-display-font-size, 33px);
+    font-size: var(--mobile-headings-display-font-size, 72px);
     font-weight: var(--mobile-headings-display-font-weight, 800);
     position: relative;
     align-self: stretch;
-    width: 243px;
+    width:fit-content;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -49,7 +49,7 @@ a {
       "Raleway-ExtraBold",
       sans-serif
     );
-    font-size: var(--mobile-headings-display-font-size, 33px);
+    font-size: var(--mobile-headings-display-font-size, 72px);
     font-weight: var(--mobile-headings-display-font-weight, 800);
     position: relative;
     height: 44px;
@@ -171,7 +171,7 @@ a {
     position: relative;
   }
   &__img {
-    margin-left: 147px;
+    margin-left: 294px;
   }
 }
 

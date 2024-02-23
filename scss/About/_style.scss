@@ -1,17 +1,17 @@
 @font-face 
 {
     font-family: protest;
-    src: url(/Bem_practice/utilities/ProtestRevolution-Regular.ttf);
+    src: url(/utilities/ProtestRevolution-Regular.ttf);
 }
 @font-face
 {
     font-family: fen;
-    src: url(/Bem_practice/utilities/Fredoka-VariableFont_wdth\,wght.ttf);
+    src: url(/utilities/Fredoka-VariableFont_wdth\,wght.ttf);
 }
 @font-face
 {
     font-family: robot;
-    src: url(/Bem_practice/utilities/Roboto-Black.ttf);
+    src: url(/utilities/Roboto-Black.ttf);
 }
 .about
 {
@@ -48,7 +48,7 @@
     &__info-div
     {
         gap: 116px;
-        margin-left: 251px;
+        margin-left: 292px;
         display: flex;
     }
     // &__info-main
@@ -83,6 +83,7 @@
     }
     &__btn
     {
+        font-size: 22px;
         margin-left: 20%;
         display: inline-block;
         padding: 0.5em 1.7em;

@@ -3,6 +3,10 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -43,7 +47,7 @@ a:hover {
   gap: 30px;
 }
 .header__btn {
-  margin-left: -204%;
+  margin-left: -271%;
   background: var(--archive-primary-pink-100, #ff00ab);
   padding: 0px 24px 0px 24px;
   display: flex;
@@ -73,7 +77,7 @@ a {
 
 @font-face {
   font-family: os;
-  src: url(/test-main/utilities/NotoNastaliqUrdu-VariableFont_wght.ttf);
+  src: url(/utilities/Roboto-Bold.ttf);
 }
 .hero {
   overflow-x: hidden;
@@ -93,11 +97,12 @@ a {
   color: #000000;
   text-align: left;
   font-family: var(--mobile-headings-display-font-family, "Raleway-ExtraBold", sans-serif);
-  font-size: var(--mobile-headings-display-font-size, 33px);
+  font-size: var(--mobile-headings-display-font-size, 72px);
   font-weight: var(--mobile-headings-display-font-weight, 800);
   position: relative;
   align-self: stretch;
-  width: 243px;
+  width: -moz-fit-content;
+  width: fit-content;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -107,7 +112,7 @@ a {
   color: #ffffff;
   text-align: left;
   font-family: var(--mobile-headings-display-font-family, "Raleway-ExtraBold", sans-serif);
-  font-size: var(--mobile-headings-display-font-size, 33px);
+  font-size: var(--mobile-headings-display-font-size, 72px);
   font-weight: var(--mobile-headings-display-font-weight, 800);
   position: relative;
   height: 44px;
@@ -213,17 +218,17 @@ a {
   position: relative;
 }
 .hero__img {
-  margin-left: 147px;
+  margin-left: 294px;
 }
 
 .footer {
+  margin-top: -24px;
   background: #343a33;
   width: 100%;
   height: 116px;
   position: relative;
   align-items: center;
   justify-content: center;
-  margin-top: -20px;
   aspect-ratio: 4/4;
 }
 .footer__logo1 {
@@ -244,15 +249,15 @@ a {
 
 @font-face {
   font-family: protest;
-  src: url(/Bem_practice/utilities/ProtestRevolution-Regular.ttf);
+  src: url(/utilities/ProtestRevolution-Regular.ttf);
 }
 @font-face {
   font-family: fen;
-  src: url(/Bem_practice/utilities/Fredoka-VariableFont_wdth\,wght.ttf);
+  src: url(/utilities/Fredoka-VariableFont_wdth\,wght.ttf);
 }
 @font-face {
   font-family: robot;
-  src: url(/Bem_practice/utilities/Roboto-Black.ttf);
+  src: url(/utilities/Roboto-Black.ttf);
 }
 .about {
   background-color: black;
@@ -283,7 +288,7 @@ a {
 }
 .about__info-div {
   gap: 116px;
-  margin-left: 251px;
+  margin-left: 292px;
   display: flex;
 }
 .about__info-num {
@@ -311,6 +316,7 @@ a {
   margin-left: 20%;
 }
 .about__btn {
+  font-size: 22px;
   margin-left: 20%;
   display: inline-block;
   padding: 0.5em 1.7em;
